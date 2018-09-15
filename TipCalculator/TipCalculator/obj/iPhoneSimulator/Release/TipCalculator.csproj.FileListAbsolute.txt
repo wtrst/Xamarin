@@ -1,0 +1,11 @@
+/Users/satouwataru/Projects/TipCalculator/TipCalculator/bin/iPhoneSimulator/Release/TipCalculator.exe
+/Users/satouwataru/Projects/TipCalculator/TipCalculator/bin/iPhoneSimulator/Release/TipCalculator.pdb
+/Users/satouwataru/Projects/TipCalculator/TipCalculator/obj/iPhoneSimulator/Release/ibtool/_BundleResourceWithLogicalName.items
+/Users/satouwataru/Projects/TipCalculator/TipCalculator/obj/iPhoneSimulator/Release/actool/_PartialAppManifest.items
+/Users/satouwataru/Projects/TipCalculator/TipCalculator/obj/iPhoneSimulator/Release/actool/_BundleResourceWithLogicalName.items
+/Users/satouwataru/Projects/TipCalculator/TipCalculator/obj/iPhoneSimulator/Release/coremlc/_PartialAppManifest.items
+/Users/satouwataru/Projects/TipCalculator/TipCalculator/obj/iPhoneSimulator/Release/coremlc/_BundleResourceWithLogicalName.items
+/Users/satouwataru/Projects/TipCalculator/TipCalculator/obj/iPhoneSimulator/Release/optimized/
+/Users/satouwataru/Projects/TipCalculator/TipCalculator/obj/iPhoneSimulator/Release/TipCalculator.csproj.CoreCompileInputs.cache
+/Users/satouwataru/Projects/TipCalculator/TipCalculator/obj/iPhoneSimulator/Release/TipCalculator.exe
+/Users/satouwataru/Projects/TipCalculator/TipCalculator/obj/iPhoneSimulator/Release/TipCalculator.pdb

@@ -18,37 +18,114 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Text" borderStyle="roundedRect" minimumFontSize="17" id="198" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="158" y="219" width="97" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="198" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="157" y="201" width="100" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <constraints>
+                                    <constraint id="1895" firstItem="198" firstAttribute="height" constant="30"/>
+                                    <constraint id="1896" firstItem="198" firstAttribute="width" constant="100"/>
+                                </constraints>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="199" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="144" y="353" width="126" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="199" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="142" y="467" width="130" height="30"/>
                                 <state key="normal" title="Calculate Tip"/>
                                 <connections>
                                     <action selector="calculateTip:" destination="BYZ-38-t0r" id="808" eventType="touchDown"/>
-                                    <action selector="CalculateTipButton_TouchUpInside:" destination="BYZ-38-t0r" id="1011" eventType="touchUpInside"/>
                                 </connections>
+                                <constraints>
+                                    <constraint id="1918" firstItem="199" firstAttribute="height" constant="30"/>
+                                    <constraint id="1919" firstItem="199" firstAttribute="width" constant="130"/>
+                                </constraints>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="398" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="186" y="298" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="398" translatesAutoresizingMaskIntoConstraints="NO" text="Tip amount: $">
+                                <rect key="frame" x="107" y="374" width="200" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="2424" firstItem="398" firstAttribute="height" constant="30"/>
+                                    <constraint id="2425" firstItem="398" firstAttribute="width" constant="200"/>
+                                </constraints>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bill amount" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1833" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="157" y="163" width="100" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="1883" firstItem="1833" firstAttribute="height" constant="30"/>
+                                    <constraint id="1884" firstItem="1833" firstAttribute="width" constant="100"/>
+                                </constraints>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="1847" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="157" y="299" width="100" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <constraints>
+                                    <constraint id="1908" firstItem="1847" firstAttribute="height" constant="30"/>
+                                    <constraint id="1909" firstItem="1847" firstAttribute="width" constant="100"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="changedPer:" destination="BYZ-38-t0r" id="4999" eventType="editingChanged"/>
+                                    <action selector="aaa:" destination="BYZ-38-t0r" id="5278" eventType="valueChanged"/>
+                                    <action selector="bbb:" destination="BYZ-38-t0r" id="5279" eventType="editingDidEnd"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1859" translatesAutoresizingMaskIntoConstraints="NO" text="Percentage">
+                                <rect key="frame" x="157" y="261" width="100" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="1910" firstItem="1859" firstAttribute="height" constant="30"/>
+                                    <constraint id="1911" firstItem="1859" firstAttribute="width" constant="100"/>
+                                </constraints>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0" minValue="0.0" maxValue="100" id="2964" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="148" y="337" width="118" height="31"/>
+                                <constraints>
+                                    <constraint id="2965" firstItem="2964" firstAttribute="height" constant="30"/>
+                                    <constraint id="2966" firstItem="2964" firstAttribute="width" constant="114"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="adjustPer:" destination="BYZ-38-t0r" id="3486" eventType="valueChanged"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <constraints>
-                            <constraint id="799" firstItem="198" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="138"/>
-                            <constraint id="800" firstItem="8bC-Xf-vdC" firstAttribute="trailingMargin" secondItem="198" secondAttribute="trailing" constant="139"/>
-                            <constraint id="801" firstItem="198" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="199"/>
+                            <constraint id="1864" firstItem="1833" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="143"/>
+                            <constraint id="1873" firstItem="8bC-Xf-vdC" firstAttribute="trailingMargin" secondItem="1833" secondAttribute="trailing" constant="137"/>
+                            <constraint id="1874" firstItem="1833" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="137"/>
+                            <constraint id="1897" firstItem="198" firstAttribute="top" secondItem="1833" secondAttribute="bottom" constant="8"/>
+                            <constraint id="1898" firstItem="8bC-Xf-vdC" firstAttribute="trailingMargin" secondItem="198" secondAttribute="trailing" constant="137"/>
+                            <constraint id="1899" firstItem="198" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="137"/>
+                            <constraint id="1900" firstItem="8bC-Xf-vdC" firstAttribute="trailingMargin" secondItem="1859" secondAttribute="trailing" constant="137"/>
+                            <constraint id="1901" firstItem="1859" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="137"/>
+                            <constraint id="1902" firstItem="1859" firstAttribute="top" secondItem="198" secondAttribute="bottom" constant="30"/>
+                            <constraint id="1903" firstItem="1847" firstAttribute="top" secondItem="1859" secondAttribute="bottom" constant="8"/>
+                            <constraint id="1906" firstItem="8bC-Xf-vdC" firstAttribute="trailingMargin" secondItem="1847" secondAttribute="trailing" constant="137"/>
+                            <constraint id="1907" firstItem="1847" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="137"/>
+                            <constraint id="1920" firstItem="199" firstAttribute="top" secondItem="398" secondAttribute="bottom" constant="63"/>
+                            <constraint id="1921" firstItem="8bC-Xf-vdC" firstAttribute="trailingMargin" secondItem="199" secondAttribute="trailing" constant="122"/>
+                            <constraint id="1922" firstItem="199" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="122"/>
+                            <constraint id="1923" firstItem="wfy-db-euE" firstAttribute="top" secondItem="199" secondAttribute="bottom" constant="239"/>
+                            <constraint id="2426" firstItem="8bC-Xf-vdC" firstAttribute="trailingMargin" secondItem="398" secondAttribute="trailing" constant="87"/>
+                            <constraint id="2427" firstItem="398" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="87"/>
+                            <constraint id="2967" firstItem="2964" firstAttribute="top" secondItem="1847" secondAttribute="bottom" constant="8"/>
+                            <constraint id="2968" firstItem="398" firstAttribute="top" secondItem="2964" secondAttribute="bottom" constant="7"/>
+                            <constraint id="2969" firstItem="8bC-Xf-vdC" firstAttribute="trailingMargin" secondItem="2964" secondAttribute="trailing" constant="130"/>
+                            <constraint id="2970" firstItem="2964" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="130"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="billAmountTextField" destination="198" id="name-outlet-198"/>
                         <outlet property="tipAmountLabel" destination="398" id="name-outlet-398"/>
                         <outlet property="calculateTipButton" destination="199" id="name-outlet-199"/>
+                        <outlet property="tipPercentageTextField" destination="1847" id="name-outlet-1847"/>
+                        <outlet property="adjustTipPercentage" destination="2964" id="name-outlet-2964"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -1,0 +1,8 @@
+RemoveDynamicRegistrar:false
+/Users/satouwataru/Projects/TipCalculator/TipCalculator/bin/iPhoneSimulator/Release/TipCalculator.app:/Users/satouwataru/Projects/TipCalculator/TipCalculator/obj/iPhoneSimulator/Release/mtouch-cache/Link/TipCalculator.exe
+/Users/satouwataru/Projects/TipCalculator/TipCalculator/bin/iPhoneSimulator/Release/TipCalculator.app:/Users/satouwataru/Projects/TipCalculator/TipCalculator/obj/iPhoneSimulator/Release/mtouch-cache/Link/mscorlib.dll
+/Users/satouwataru/Projects/TipCalculator/TipCalculator/bin/iPhoneSimulator/Release/TipCalculator.app:/Users/satouwataru/Projects/TipCalculator/TipCalculator/obj/iPhoneSimulator/Release/mtouch-cache/Link/Xamarin.iOS.dll
+/Users/satouwataru/Projects/TipCalculator/TipCalculator/bin/iPhoneSimulator/Release/TipCalculator.app:/Users/satouwataru/Projects/TipCalculator/TipCalculator/obj/iPhoneSimulator/Release/mtouch-cache/Link/System.dll
+/Users/satouwataru/Projects/TipCalculator/TipCalculator/bin/iPhoneSimulator/Release/TipCalculator.app:/Users/satouwataru/Projects/TipCalculator/TipCalculator/obj/iPhoneSimulator/Release/mtouch-cache/Link/Mono.Security.dll
+/Users/satouwataru/Projects/TipCalculator/TipCalculator/bin/iPhoneSimulator/Release/TipCalculator.app:/Users/satouwataru/Projects/TipCalculator/TipCalculator/obj/iPhoneSimulator/Release/mtouch-cache/Link/System.Xml.dll
+/Users/satouwataru/Projects/TipCalculator/TipCalculator/bin/iPhoneSimulator/Release/TipCalculator.app:/Users/satouwataru/Projects/TipCalculator/TipCalculator/obj/iPhoneSimulator/Release/mtouch-cache/Link/System.Core.dll
